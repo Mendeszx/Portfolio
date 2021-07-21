@@ -1,2 +1,2 @@
 # portfolio-bootstrap
- Primeiro projeo em bootstrap
+ Primeiro projeto em bootstrap
