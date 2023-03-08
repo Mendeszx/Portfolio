@@ -1066,7 +1066,9 @@ img {
     order: 1;
     justify-self: center;
   }
-  .about__container,
+  .about__container{
+    justify-items: center;
+  }
   .skills__container,
   .portfolio__content,
   .project__container,
@@ -1150,7 +1152,7 @@ img {
     justify-content: space-between;
   }
   .about__buttons {
-    justify-content: initial;
+    align-items: center;
   }
   .qualification__tabs {
     justify-content: center;

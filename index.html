@@ -48,6 +48,7 @@
                             <i class="uil uil-file-alt nav__icon"></i> Qualificações
                         </a>
                     </li>
+                    <!--
 
                     <li class="nav__item">
                         <a href="#services" class="nav__link">
@@ -60,6 +61,8 @@
                             <i class="uil uil-scenery nav__icon"></i> Portfolio
                         </a>
                     </li>
+
+                -->
 
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
@@ -151,12 +154,12 @@
             <span class="section__subtitle">Minha Introdução</span>
 
             <div class="about__container container grid">
-                <img src="assets/img/about.png" alt="" class="about__img">
+                <!-- <img src="assets/img/about.png" alt="" class="about__img"> -->
 
                 <div class="about__data">
-                    <p class="about__description">Desenvolvedor Backend, com experiência em
-                        API Rest e utilização de padrões Clean Code e Clean Architecture, assim, entregando trabalhos de
-                        qualidade.
+                    <p class="about__description">Densenvolvedor backend, possuo foco em desenvolvimento Java e Kotlin dentre outras tecnologias que uso para criar aplicações.
+                        Iniciei no desenvolvimento de software em 2020, me reconheço como entusiasta em novas tecnologias atuais do mercado, com aprendizado adquirido dia após dia.
+                        Me considero ágil e consistente em aprender uma nova linguagem e me adaptar à qualquer mudança, pronto para superar qualquer desafio!
                     </p>
 
                     <div class="about__info">
@@ -344,20 +347,74 @@
 
             <div class="qualification__container container">
                 <div class="qualification__tabs">
-                    <div class="qualification__button button--flex qualification__active" data-target="#education">
-                        <i class="uil uil-graduation-cap qualification__icon"></i>
-                        Educação
-                    </div>
-
-                    <div class="qualification__button button--flex" data-target="#work">
+                    <div class="qualification__button button--flex qualification__active" data-target="#work">
                         <i class="uil uil-briefcase-alt qualification__icon"></i>
                         Trabalho
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#education">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Educação
                     </div>
                 </div>
 
                 <div class="qualification__sections">
                     <!--=============== QUALIFICATION CONTENT 1 ===============-->
-                    <div class="qualification__content qualification__active" data-content id="education">
+                    <div class="qualification__content qualification__active" data-content id="work">
+                        <!--=============== QUALIFICATION 1 ===============-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Estagiário de Tecnologia</h3>
+                                <span class="qualification__subtitle">Itaú Unibanco - Brasil</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2021-2022
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--=============== QUALIFICATION 2 ===============-->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div class="qualification__time">
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Desenvolvedor backend</h3>
+                                <span class="qualification__subtitle">Valemobi - Brasil</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2022-2023
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Ui Designer</h3>
+                                    <span class="qualification__subtitle">Figma - Spain</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2020-2021
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div> -->
+                    </div>
+                    <!--=============== QUALIFICATION CONTENT 2 ===============-->
+                    <div class="qualification__content" data-content id="education">
                         <!--=============== QUALIFICATION 1 ===============-->
                         <div class="qualification__data">
                             <div>
@@ -374,7 +431,6 @@
                                 <!-- <span class="qualification__line"></span> -->
                             </div>
                         </div>
-
                         <!--=============== QUALIFICATION 2 ===============-->
                         <!-- <div class="qualification__data">                                 
                                 <div></div>
@@ -430,124 +486,34 @@
                                 </div>
                             </div> -->
                     </div>
-
-                    <!--=============== QUALIFICATION CONTENT 2 ===============-->
-                    <div class="qualification__content" data-content id="work">
-                        <!--=============== QUALIFICATION 1 ===============-->
-                        <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">Estagiario de Tecnologia</h3>
-                                <span class="qualification__subtitle">Itaú Unibanco - Brasil</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2021-2022
-                                </div>
-                            </div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-                        </div>
-
-                        <!--=============== QUALIFICATION 2 ===============-->
-                        <div class="qualification__data">
-                            <div></div>
-
-                            <div class="qualification__time">
-                                <span class="qualification__rounder"></span>
-                                <!-- <span class="qualification__line"></span> -->
-                            </div>
-
-                            <div>
-                                <h3 class="qualification__title">Analista de backend</h3>
-                                <span class="qualification__subtitle">Valemobi - Brasil</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2022-Atual
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- <div class="qualification__data">
-                                <div>
-                                    <h3 class="qualification__title">Ui Designer</h3>
-                                    <span class="qualification__subtitle">Figma - Spain</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        2020-2021
-                                    </div>
-                                </div>
-    
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-                            </div> -->
-                    </div>
                 </div>
             </div>
         </section>
 
         <!--==================== SERVICES ====================-->
+        <!--
         <section class="services section" id="services">
             <h2 class="section__title">Serviços</h2>
             <span class="section__subtitle">O que eu ofereço</span>
 
             <div class="services__container container grid">
+                -->
                 <!--=============== SERVICES 1 ===============-->
-                <div class="services__content">
-                    <div>
-                        <i class="uil uil-web-grid services__icon"></i>
-                        <h3 class="services__title">Ui/Ux <br> Designer</h3>
-                    </div>
-                    <span class="button button--flex button--small button--link services__button">
-                        View More
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Ui/Ux <br> Designer</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-
-                            <ul class="services__modal-services grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I develop the user interface.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Web page development.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I create ux element interactions.</p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I position your company brand.</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!--=============== SERVICES 2 ===============-->
+                <!--
                 <div class="services__content">
                     <div>
                         <i class="uil uil-arrow services__icon"></i>
-                        <h3 class="services__title">Frontend <br> Developer</h3>
+                        <h3 class="services__title">Backend <br> Developer</h3>
                     </div>
 
                     <span class="button button--flex button--small button--link services__button">
-                        View More
+                        Veja Mais
                         <i class="uil uil-arrow-right button__icon"></i>
                     </span>
 
                     <div class="services__modal">
                         <div class="services__modal-content">
-                            <h4 class="services__modal-title">Frontend <br> Developer</h4>
+                            <h4 class="services__modal-title">Backend <br> Developer</h4>
                             <i class="uil uil-times services__modal-close"></i>
 
                             <ul class="services__modal-services grid">
@@ -571,8 +537,50 @@
                         </div>
                     </div>
                 </div>
+                -->
+
+                <!--=============== SERVICES 2 ===============-->
+                <!--
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-web-grid services__icon"></i>
+                        <h3 class="services__title">Infraestrutura <br> <br></h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services__button">
+                        Veja Mais
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Infraestrutura</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I develop the user interface.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Web page development.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I create ux element interactions.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>I position your company brand.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                -->
 
                 <!--=============== SERVICES 3 ===============-->
+                <!--
                 <div class="services__content">
                     <div>
                         <i class="uil uil-pen services__icon"></i>
@@ -580,7 +588,7 @@
                     </div>
 
                     <span class="button button--flex button--small button--link services__button">
-                        View More
+                        Veja Mais
                         <i class="uil uil-arrow-right button__icon"></i>
                     </span>
 
@@ -613,15 +621,18 @@
                 </div>
             </div>
         </section>
-
+        -->
         <!--==================== PORTFOLIO ====================-->
+        <!--
         <section class="portfolio section" id="portfolio">
             <h2 class="section__title">Portfolio</h2>
             <span class="section__subtitle">Meus projetos recentes</span>
 
             <div class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper">
+                    -->
                     <!--=============== PORTFOLIO 1 ===============-->
+                    <!--
                     <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
 
@@ -635,8 +646,10 @@
                             </a>
                         </div>
                     </div>
+                    -->
 
                     <!--=============== PORTFOLIO 2 ===============-->
+                    <!--
                     <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
 
@@ -650,8 +663,10 @@
                             </a>
                         </div>
                     </div>
+                    -->
 
                     <!--=============== PORTFOLIO 3 ===============-->
+                    <!--
                     <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
 
@@ -677,6 +692,7 @@
                 <div class="swiper-pagination"></div>
             </div>
         </section>
+        -->
 
         <!--==================== PROJECT IN MIND ====================-->
         <!-- <section class="project section">
@@ -807,7 +823,7 @@
                         <i class="uil uil-envelope contact__icon"></i>
                         <div>
                             <h3 class="contact__title">Email</h3>
-                            <span class="contact__subtitle">guilherme_mendes2018@outlook.com</span>
+                            <span class="contact__subtitle">guilherme_gmc@outlook.com</span>
                         </div>
                     </div>
 
@@ -876,12 +892,14 @@
                     <li>
                         <a href="#qualification" class="footer__link">Qualificações</a>
                     </li>
+                    <!--
                     <li>
                         <a href="#services" class="footer__link">Serviços</a>
                     </li>
                     <li>
                         <a href="#portfolio" class="footer__link">Portfolio</a>
                     </li>
+                -->
                     <li>
                         <a href="#contact" class="footer__link">Contato</a>
                     </li>
